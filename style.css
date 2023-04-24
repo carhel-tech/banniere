@@ -1,0 +1,121 @@
+*{ padding : 0; margin : 0;  box-sizing : border-box ; }
+
+/* Mise en forme du header */
+header{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color:#d2c8f8;
+
+}
+
+
+
+.p1-header{ margin-right: 1.1%;
+    margin-top: 0.7%;
+    font-size: larger;
+    font-family:'lato';
+    font-size: 1.3em;
+
+}
+
+
+
+
+    b{font-weight: bold;}
+    span{color:#7255e8;
+    font-weight: bold;
+    }
+
+    .jour-h{color:#080513;
+        font-weight: bold;}
+
+.p2-header{ 
+    margin-top: 0.7%;
+    font-size: larger;
+    font-family:'lato';
+    font-size: 1.3em;
+
+
+}
+
+
+
+
+.inscription{ margin-left: 1%;
+    margin-top: 0.7%;
+    
+
+}
+button{border: solid blue 2px;
+    border-radius: 50px;
+    padding: 5px;
+background-color: blue;
+font-size: large;
+font-weight: bold;
+width: 100%;
+color: aliceblue;}
+
+
+/* mise en forme de la nav */
+
+nav{
+display: flex;
+justify-content:space-between;
+height: 100px;}
+
+.logo{
+height: 50px;
+margin-left: 150px;
+margin-top:15px;
+}
+
+.main-logo{ height: 70px;}
+
+.menu{
+background-color: white;
+margin-right:150px;
+margin-top: 20px;
+font-weight: bold;
+font-size: 1.1em;}
+
+.menu ul{ list-style-type:none;
+margin: 0;
+padding: 0;
+overflow: hidden;}
+
+.menu li{float: left;}
+
+.menu li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+/* mise en forme de la banniere */
+  
+  .banniere{
+    /* border: solid red 2px; */
+    height: 500px;
+    background-color: #ffe5f6;
+  }
+
+  .p2-banniere,.p1-banniere,.p3-banniere{
+    text-align: center;
+  }
+  .p1-banniere{
+    color: #ff59c7;
+    font-size: 1.6em;
+    padding: 50px;
+    
+  }
+
+
+  .p2-banniere{
+    color: #ff59c7;
+    font-size: 5em;
+    font-weight: 700;
+    margin-top: 20px;
+    
+  }
